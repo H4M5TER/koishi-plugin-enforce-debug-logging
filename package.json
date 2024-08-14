@@ -1,21 +1,20 @@
 {
   "name": "koishi-plugin-enforce-debug-logging",
   "description": "Apply debug log level to plugins in workspace when developing.",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
     "lib",
-    "dist"
+    "dist",
+    "src"
   ],
   "license": "MIT",
-  "scripts": {},
   "keywords": [
     "chatbot",
     "koishi",
     "plugin"
   ],
-  "devDependencies": {},
   "peerDependencies": {
     "koishi": "^4.17.11"
   }
